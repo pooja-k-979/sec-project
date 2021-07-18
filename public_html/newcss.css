@@ -1,0 +1,192 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 7, 2021, 9:12:32 PM
+    Author     : rc
+*/
+
+body{ max-width:1000px;
+    margin: auto;
+    font-family:Robot;
+    font-size:16px;
+    
+}
+h4{
+    font : normal small-caps bolder 28px arial, sans-serif;
+    
+}
+div{
+    /*border: 1px solid black;*/
+    margin-top: 5px;
+    padding: 20px;
+    float:right;
+}
+.class1{
+    float: left;
+}
+.class2{
+    float: right;
+}
+.box{
+    display: inline-block;
+    width: 45%;
+    float:right;
+}
+.list_box{
+    width:100%;
+    overflow:hidden;
+}
+#pic{
+    float: left;
+    padding: 0px 20px 0px 20px;
+    
+}
+.intro{
+    overflow: auto;
+}
+
+#background-img{
+  background-image: url(images/bat_cover.jpg);
+  height: 350px;
+  width: 1000px;
+  padding-top: 50px;
+  color:#fff;
+  margin-top: 25px; 
+}
+#content{
+    background-color: rgba(0,0,0,0.7);
+    max-width: 450px;
+    padding: 30px 20px;
+    margin-top: 50px;
+    text-align: left;
+}
+/*#movies{
+    h2{
+        text-align: center;
+    } 
+}*/
+.thumbnail{
+  display: inline-block;
+
+    height: auto;
+
+    padding: 4px;
+
+    margin-bottom: 20px;
+
+    background-color: #fff;
+
+    border: 1px solid #a4a4a4;
+
+    text-align: center;
+
+    color: #666;
+
+    margin: 50px;  
+    
+}
+
+table{
+    border: 1px solid;
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 15px;
+    border: 1px solid #0000ff;
+    height: 30px;
+
+}
+th{
+        text-align: left;
+        background-color: red;
+}
+
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding:0;
+}
+li a {
+    display: block;
+    color: #FFC0CB;
+    padding:14px 16px;
+    text-decoration: none;
+    float:right;
+}
+.logo{
+    float: left;
+    height: 50px;
+}
+#header{
+    padding: 5px 0px;
+    border-bottom: 1px solid;
+} 
+input {
+
+    padding: 14px 70px;
+
+    font-size: 15px;
+
+    margin-bottom: 30px;
+
+}
+
+#subscribe {
+
+    border: none;
+
+    background-color: #26211f;
+
+    color: white;
+
+    font-size: 16px;
+
+    margin: 4px -4px;
+
+    padding: 16px 40px;
+
+}
+
+
+    @media (min-width:320px/*in this bracket, we r checking min width of our device*/){ 
+        .container{
+        width: 320px;
+        }
+    }  
+    @media (min-width: 481){
+        .container{
+            width: 481px;
+        }                 
+    }
+    @media (min-width: 641){
+        .container{
+            width: 641px;
+        }                 
+    }
+    @media (min-width: 961){
+        .container{
+            width: 961px;
+        }                 
+    }
+    @media (min-width: 1000){
+        .container{
+            width: 1000px;
+        }                 
+    }
+    
+    @media(max-width: 481){
+        #villians{
+            width: 100%
+        }
+        #pic{
+            width: 100%
+        }
+        h2{
+            text-align: center;
+        }
+    }
